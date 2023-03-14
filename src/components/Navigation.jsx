@@ -1,26 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Navigation = ({ navState, setNavState }) => {
+const Navigation = ({ isOpen, onClose }) => {
   const navigationTitles = ["About", "Portfolio", "Contact", "Resume"];
 
+  const handleClick = () => {
+    onClose();
+  };
+
   return (
-    <div
-      className={`${
-        navState ? "links-container nav-visible" : "links-container"
-      }`}
-    >
-      <ul className="links">
-        {navigationTitles.map((navTitle) => (
-          <li key={navTitle} onClick={() => setNavState((prev) => false)}>
-            <Link to={`/20-myreact-portfolio/${navTitle}`} className="link">
-              {" "}
-              {navTitle}{" "}
+    <nav className={`nav ${isOpen ? "nav-open" : ""}`}>
+      <ul className="nav__list">
+        {navigationTitles.map((title) => (
+          <li key={title} className="nav__item" onClick={handleClick}>
+            <Link to={`/${title.toLowerCase()}`} className="nav__link">
+              {title}
             </Link>
           </li>
         ))}
       </ul>
-    </div>
+    </nav>
   );
 };
 
