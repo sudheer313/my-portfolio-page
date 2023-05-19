@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my-portfolio-page/static/css/main.799bd4fc.css",
+    "main.js": "/my-portfolio-page/static/js/main.898412e6.js",
+    "static/media/pizza.png": "/my-portfolio-page/static/media/pizza.5740be47c908dc9b845d.png",
+    "static/media/IMG_1211.jpg": "/my-portfolio-page/static/media/IMG_1211.5c9b1b53cca7ab1b6def.jpg",
+    "static/media/afl.png": "/my-portfolio-page/static/media/afl.44a69548984e31d9693d.png",
+    "static/media/techi_blog.png": "/my-portfolio-page/static/media/techi_blog.125cbdb2900dbc4575d1.png",
+    "static/media/weather.png": "/my-portfolio-page/static/media/weather.8d47630df8dd835a2083.png",
+    "static/media/quiz.png": "/my-portfolio-page/static/media/quiz.1427c9828d25b648f160.png",
+    "static/media/workday.png": "/my-portfolio-page/static/media/workday.71b64255fb5e46fa5bda.png",
+    "static/media/Sudheer_FullStack_resume.pdf": "/my-portfolio-page/static/media/Sudheer_FullStack_resume.d4e55c7464835b24323b.pdf",
+    "index.html": "/my-portfolio-page/index.html",
+    "main.799bd4fc.css.map": "/my-portfolio-page/static/css/main.799bd4fc.css.map",
+    "main.898412e6.js.map": "/my-portfolio-page/static/js/main.898412e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.799bd4fc.css",
+    "static/js/main.898412e6.js"
+  ]
+}
